@@ -10,17 +10,19 @@
                 <element inactive_on_update="false" label="Your Department Choice" sequence="3" value="your_choice"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" default="abc" label="What needed" mandatory="true" max_length="40" name="u_what_needed" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="What needed" mandatory="true" max_length="40" name="u_what_needed" type="string">
             <choice>
-                <element inactive_on_update="false" label="ABC" sequence="0" value="abc"/>
-                <element inactive_on_update="false" label="CDE" sequence="1" value="cde"/>
-                <element inactive_on_update="false" label="EFG" sequence="2" value="efg"/>
-                <element inactive_on_update="false" label="GHI" sequence="3" value="ghi"/>
-                <element inactive_on_update="false" label="IJK" sequence="4" value="ijk"/>
-                <element inactive_on_update="false" label="LKM" sequence="5" value="lkm"/>
-                <element inactive_on_update="false" label="MNO" sequence="6" value="mno"/>
-                <element inactive_on_update="false" label="OPQ" sequence="7" value="opq"/>
-                <element inactive_on_update="false" label="QRS" sequence="8" value="qrs"/>
+                <element inactive="true" inactive_on_update="true" label="ABC" sequence="0" value="abc"/>
+                <element inactive_on_update="false" label="Test" sequence="0" value="test"/>
+                <element inactive="true" inactive_on_update="true" label="CDE" sequence="1" value="cde"/>
+                <element inactive_on_update="false" label="Other" sequence="1" value="other"/>
+                <element inactive="true" inactive_on_update="true" label="EFG" sequence="2" value="efg"/>
+                <element inactive="true" inactive_on_update="true" label="GHI" sequence="3" value="ghi"/>
+                <element inactive="true" inactive_on_update="true" label="IJK" sequence="4" value="ijk"/>
+                <element inactive="true" inactive_on_update="true" label="LKM" sequence="5" value="lkm"/>
+                <element inactive="true" inactive_on_update="true" label="MNO" sequence="6" value="mno"/>
+                <element inactive="true" inactive_on_update="true" label="OPQ" sequence="7" value="opq"/>
+                <element inactive="true" inactive_on_update="true" label="QRS" sequence="8" value="qrs"/>
             </choice>
         </element>
         <element label="When needed" max_length="40" name="u_when_needed" type="glide_date_time"/>
